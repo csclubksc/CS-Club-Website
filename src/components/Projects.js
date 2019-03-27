@@ -34,8 +34,8 @@ class Projects extends React.Component{
                     <Card.Body>
                         <Card.Title><h1>Github Projects</h1></Card.Title>
                         <Card.Text>
-                            A listing of all the public projects on our official GitHub page.
-                            Feel free to contribute!
+                            <article>A listing of all the public projects on our official GitHub page.
+                            Feel free to contribute!</article>
                         </Card.Text>
                     </Card.Body>
                 </Card>

@@ -11,7 +11,7 @@ class Resources extends React.Component {
                     <Card.Body>
                         <Card.Title><h1>Recommended Books</h1></Card.Title>
                         <Card.Text>
-                            A collection of CS Club curated books to help improve your skills as a developer.
+                           <article>A collection of CS Club curated books to help improve your skills as a developer.</article> 
                         </Card.Text>
                     </Card.Body>
                 </Card>

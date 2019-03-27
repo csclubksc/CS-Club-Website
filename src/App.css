@@ -6,31 +6,41 @@ body {
   display: block;
   margin: auto;
   width: 30em;
+  margin-bottom: 1em;
 }
 
 #banner {
-  margin-top: -2em;
+  margin-top: -.9em;
   width: 100%;
   margin-bottom: 5em;
 }
 
 #header {
   z-index: 2;
-  height: 11em;
+  height: 12.2em;
   width: 100%;
   position: fixed;
   background-color: white;
+  padding-top: 1em;
 }
 
 #sectionHeader{
   margin-right: 2em;
 }
 
+article{
+  font-size: 1.3em;
+}
+
 .bookImg {
-  width: inherit;
-  height: 20em;
   margin-bottom: 1em;
-  margin-left: 23%;
+  width: 50%;
+  min-width: 90px;
+  height: auto;
+}
+
+.card-body{
+  text-align: center;
 }
 
 #resourceDeck {
@@ -62,7 +72,7 @@ body {
 }
 
 .card {
-  background-color: #CE1126;
+  background-color: #80A1B6;
   color: white;
 }
 
@@ -86,5 +96,20 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .nav {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #logo{
+    width: 18em;
+  }
+  #header{
+    height: 7em;
   }
 }
