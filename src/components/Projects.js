@@ -32,7 +32,7 @@ class Projects extends React.Component{
             <CardDeck ref={this.props.scrollRef} id="githubProjects">
                 <Card>
                     <Card.Body>
-                        <Card.Title>Github Projects</Card.Title>
+                        <Card.Title><h1>Github Projects</h1></Card.Title>
                         <Card.Text>
                             A listing of all the public projects on our official GitHub page.
                             Feel free to contribute!

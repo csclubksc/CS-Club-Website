@@ -1,7 +1,17 @@
+body {
+  background-image: url("./resources/chalk.jpg");
+}
+
 #logo {
   display: block;
   margin: auto;
   width: 30em;
+}
+
+#banner {
+  margin-top: -2em;
+  width: 100%;
+  margin-bottom: 5em;
 }
 
 #header {
@@ -16,6 +26,13 @@
   margin-right: 2em;
 }
 
+.bookImg {
+  width: inherit;
+  height: 20em;
+  margin-bottom: 1em;
+  margin-left: 23%;
+}
+
 #resourceDeck {
   margin-left: 5%;
   margin-top: 5em;
@@ -24,11 +41,10 @@
 #bodyWrapper {
   padding-top: 5em;
   position: absolute;
-  top: 10em;
+  top: 8em;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url("./resources/chalk.jpg");
 } 
 
 .nav {

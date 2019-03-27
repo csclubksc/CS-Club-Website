@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import Banner from "./components/Banner";
 // import AboutUs from "./components/AboutUs";
 // import MeetingSchedule from "./components/MeetingSchedule";
 // import Gallery from "./components/Gallery";
@@ -23,6 +24,7 @@ class App extends Component {
       <div className="App">
         <Header scrollRefs={{projects: this.projectsRef, resources: this.tempRef}}/>
         <div id="bodyWrapper">
+          <Banner />
           {/* <AboutUs /> */}
           {/* <MeetingSchedule /> */}
           {/* <Gallery /> */}
