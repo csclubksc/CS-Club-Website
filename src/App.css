@@ -4,6 +4,7 @@ html {
 
 body {
   background-image: url("./resources/chalk.jpg");
+  background-attachment: fixed;
 }
 
 #logo {

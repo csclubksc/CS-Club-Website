@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 class Resources extends React.Component {
     render() {
         return (
-            <CardDeck id="resourceDeck">
+            <CardDeck id="resourceDeck" ref={this.props.scrollRef}>
                 <Card>
                     <Card.Body>
                         <Card.Title><h1>Recommended Books</h1></Card.Title>
