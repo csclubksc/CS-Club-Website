@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Header from "./components/Header";
 import Projects from "./components/Projects";
-import Banner from "./components/Banner";
 // import AboutUs from "./components/AboutUs";
 // import MeetingSchedule from "./components/MeetingSchedule";
-// import Gallery from "./components/Gallery";
+import Gallery from "./components/Gallery";
 // import Projects from "./components/Projects";
 import Resources from "./components/Resources";
 // import ContactUs from "./components/ContactUs";
@@ -17,17 +16,17 @@ class App extends Component {
 
     this.projectsRef = React.createRef();
     this.tempRef = React.createRef();
+    this.galleryRef = React.createRef();
   }
 
   render() {
     return (
       <div className="App">
-        <Header scrollRefs={{projects: this.projectsRef, resources: this.tempRef}}/>
+        <Header scrollRefs={{gallery: this.galleryRef, projects: this.projectsRef, resources: this.tempRef}}/>
         <div id="bodyWrapper">
-          <Banner />
+          <Gallery scrollRef={this.galleryRef}/>
           {/* <AboutUs /> */}
           {/* <MeetingSchedule /> */}
-          {/* <Gallery /> */}
           <Projects scrollRef={this.projectsRef} user="csclubksc"/>
           <Resources scrollRef={this.tempRef} />
           {/* <ContactUs /> */}

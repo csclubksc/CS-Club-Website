@@ -36,7 +36,7 @@ class Header extends React.Component{
                         <Nav.Link eventKey="link-1">Meetings</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Gallery</Nav.Link>
+                        <Nav.Link eventKey="gallery">Gallery</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="projects">Projects</Nav.Link>
