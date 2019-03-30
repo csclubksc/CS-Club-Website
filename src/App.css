@@ -24,12 +24,17 @@ body {
   margin-top: 5em;
 }
 
-.card #meetingItem .card-body {
+#meetingItem .card-body {
   text-align: left;
 }
 
-.card #meetingItem .card-title {
-  font-size: 2em;
+#meetingItem .card-title {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+#meetingItem .card-subtitle {
+  margin-bottom: 1em;
 }
 
 #logo {
