@@ -1,9 +1,0 @@
-1. Fork the project. (Click the fork button on the CS-Club-Website repository)
-2. Clone your forked repository. (Copy the forked repository url and do <git clone url>)
-3. Add a new branch. (
-4. Edit away on new branch.
-5. Fetch most recent master branch.
-6. Merge the two branches.
-7. Make a pull request!
-
-
