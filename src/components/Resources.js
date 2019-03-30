@@ -11,7 +11,9 @@ class Resources extends React.Component {
                     <Card.Body>
                         <Card.Title><h1>Bookshelf</h1></Card.Title>
                         <Card.Text>
-                           <article>A collection of CS Club recommended books to help improve your skills as a developer.</article> 
+                           <article>A collection of CS Club recommended books to help improve your skills as a developer.<br/><br/>
+                                    Content ranges from career prep to software engineering best practices and more pure CS concepts<br /><br />
+                                    Please feel free to suggest new books at club meetings to be added to the list!</article> 
                         </Card.Text>
                     </Card.Body>
                 </Card>

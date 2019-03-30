@@ -146,4 +146,8 @@ article{
   #header{
     height: 7em;
   }
+
+  #banner {
+    margin-top: -6em;
+  }
 }
