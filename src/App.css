@@ -129,6 +129,25 @@ article{
   text-align: left;
 }
 
+#contactUs {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: -1.5em;
+  text-align: center;
+}
+
+.divider {
+  display: inline-block;
+  width: 10%;
+}
+
+#text {
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

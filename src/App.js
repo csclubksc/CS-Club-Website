@@ -31,7 +31,7 @@ class App extends Component {
           <MeetingSchedule scrollRef={this.meetingRef} />
           <Projects scrollRef={this.projectsRef} user="csclubksc"/>
           <Resources scrollRef={this.tempRef} />
-          <ContactUs scrollRef={this.contactRef}/> */}
+          <ContactUs scrollRef={this.contactRef}/>
           {/* <Footer /> */}
         </div>
       </div>
