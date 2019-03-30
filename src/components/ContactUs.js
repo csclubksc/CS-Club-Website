@@ -5,9 +5,6 @@ class ContactUs extends Component {
     render() {
         return (
             <div id="contactUs" ref={this.props.scrollRef}>
-                <Card>
-                    <Card.Title>Filler</Card.Title>
-                </Card>
             </div>
         );
     }
