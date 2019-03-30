@@ -9,11 +9,18 @@ body {
 
 #meetingSched {
   margin-bottom: 5em;
-  margin-top: -5em;
 }
 
 #meetingCards {
   margin-left: 5%;
+}
+
+#contactUs{
+  margin-top: 5em;
+}
+
+.card #meetingItem {
+  background-color: #FF6961;
 }
 
 #logo {

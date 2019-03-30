@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 class MeetingSummary extends Component {
     render() {
         return (
-            <Card>
+            <Card id="meetingItem">
                 <Card.Header>{this.props.date}</Card.Header>
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>

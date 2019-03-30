@@ -6,7 +6,7 @@ import MeetingSchedule from "./components/MeetingSchedule";
 import Gallery from "./components/Gallery";
 // import Projects from "./components/Projects";
 import Resources from "./components/Resources";
-// import ContactUs from "./components/ContactUs";
+import ContactUs from "./components/ContactUs";
 // import Footer from "./components/Footer";
 import './App.css';
 
@@ -18,19 +18,20 @@ class App extends Component {
     this.tempRef = React.createRef();
     this.galleryRef = React.createRef();
     this.meetingRef = React.createRef();
+    this.contactRef = React.createRef();
   }
 
   render() {
     return (
       <div className="App">
-        <Header scrollRefs={{meetingSched: this.meetingRef, gallery: this.galleryRef, projects: this.projectsRef, resources: this.tempRef}}/>
+        <Header scrollRefs={{contactUs: this.contactRef, meetingSched: this.meetingRef, gallery: this.galleryRef, projects: this.projectsRef, resources: this.tempRef}}/>
         <div id="bodyWrapper">
           <Gallery scrollRef={this.galleryRef}/>
           {/* <AboutUs /> */}
           <MeetingSchedule scrollRef={this.meetingRef} />
           <Projects scrollRef={this.projectsRef} user="csclubksc"/>
           <Resources scrollRef={this.tempRef} />
-          {/* <ContactUs /> */}
+          <ContactUs scrollRef={this.contactRef}/> */}
           {/* <Footer /> */}
         </div>
       </div>
