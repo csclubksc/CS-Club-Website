@@ -7,6 +7,15 @@ body {
   background-attachment: fixed;
 }
 
+#meetingSched {
+  margin-bottom: 5em;
+  margin-top: -5em;
+}
+
+#meetingCards {
+  margin-left: 5%;
+}
+
 #logo {
   display: block;
   margin: auto;
