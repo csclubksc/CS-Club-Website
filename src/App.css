@@ -138,13 +138,13 @@ article{
   }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
   .nav {
-    font-size: .8em;
+    font-size: .7em;
   }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 740px){
   .nav {
     visibility: hidden;
   }

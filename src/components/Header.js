@@ -45,7 +45,7 @@ class Header extends React.Component{
                         <Nav.Link eventKey="resources">Bookshelf</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="contactUs">Contact Us</Nav.Link>
+                        <Nav.Link eventKey="contactUs">Social Media</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </div>
