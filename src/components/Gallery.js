@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 class Gallery extends Component {
     render() {
         return (
-            <div id="banner">
+            <div id="banner" ref={this.props.scrollRef}>
                 <Carousel indicators={false}>
                     <Carousel.Item>
                         <img

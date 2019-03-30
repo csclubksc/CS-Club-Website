@@ -9,9 +9,9 @@ class Resources extends React.Component {
             <CardDeck id="resourceDeck" ref={this.props.scrollRef}>
                 <Card>
                     <Card.Body>
-                        <Card.Title><h1>Recommended Books</h1></Card.Title>
+                        <Card.Title><h1>Bookshelf</h1></Card.Title>
                         <Card.Text>
-                           <article>A collection of CS Club curated books to help improve your skills as a developer.</article> 
+                           <article>A collection of CS Club recommended books to help improve your skills as a developer.</article> 
                         </Card.Text>
                     </Card.Body>
                 </Card>

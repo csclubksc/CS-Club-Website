@@ -33,7 +33,7 @@ class Header extends React.Component{
                         }
                     }>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-1">Meetings</Nav.Link>
+                        <Nav.Link eventKey="meetingSched">Meetings</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="gallery">Gallery</Nav.Link>
@@ -45,7 +45,7 @@ class Header extends React.Component{
                         <Nav.Link eventKey="link-4">Contact Us</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="resources">Resources</Nav.Link>
+                        <Nav.Link eventKey="resources">Bookshelf</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </div>
