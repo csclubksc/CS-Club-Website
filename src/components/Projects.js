@@ -39,7 +39,7 @@ class Projects extends React.Component{
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                {this.state.projects.length != 0 ? this.getProjectTags() : null}
+                {this.state.projects.length !== 0 ? this.getProjectTags() : null}
             </CardDeck>
         );
     }

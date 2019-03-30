@@ -12,7 +12,7 @@ const links = [
 const linkTags = [];
 
 for(var i = 0; i < links.length; i++){
-    linkTags.push(<li><a href="#">{links[i]}</a></li>);
+    linkTags.push(<li><a href="/">{links[i]}</a></li>);
 };
 
 class Header extends React.Component{
@@ -24,7 +24,7 @@ class Header extends React.Component{
     render(){
         return (
             <div id="header">
-                <a onClick={this.goToTop} href=""><img id="logo" alt="logo" src={require("../resources/TempHeader.PNG")} /></a>
+                <a onClick={this.goToTop} href="/"><img id="logo" alt="logo" src={require("../resources/TempHeader.PNG")} /></a>
                 <Nav fill justify variant="tabs"
                     activeKey="#"
                     onSelect={selectedKey => {

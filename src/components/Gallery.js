@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
 import Carousel from 'react-bootstrap/Carousel';
 
 class Gallery extends Component {
