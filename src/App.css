@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url("./resources/darkChalkboard.jpg");
+  background-image: url("./resources/circuits.png");
   background-attachment: fixed;
 }
 
@@ -175,6 +175,16 @@ article{
   }
   #header{
     height: 7em;
+  }
+
+  #contactUs {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: -1.5em;
+    text-align: center;
   }
 
   #banner {
