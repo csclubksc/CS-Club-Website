@@ -23,7 +23,7 @@ class Gallery extends Component {
                     <Carousel.Item>
                         <img 
                             className="d-block w-100"
-                            src={require("../resources/whiteboard.jpg")}
+                            src={require("../resources/whiteboardNear.jpg")}
                             alt="Third slide"
                         />
                     </Carousel.Item>
