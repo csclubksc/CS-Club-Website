@@ -33,9 +33,19 @@ class Resources extends React.Component {
                     <Card.Body>
                         <Card.Img class="bookImg" src={require("../resources/effectiveJava.jpg")} />
                         <Card.Subtitle>By Joshua Bloch</Card.Subtitle>
-                        <Card.Text>The defacto standard in writing quality Java code</Card.Text>
+                        <Card.Text>The defacto standard in writing quality Java code, a must have for professional java developers who want to write Java the right way</Card.Text>
                         <Button href="https://www.oreilly.com/library/view/effective-java-3rd/9780134686097/"
-                            target="_blank">Visit the Publisher's Website</Button>
+                            target="_blank">Check it Out on O'Reilly</Button>
+                    </Card.Body>
+                </Card>
+                <Card>
+                    <Card.Header>Focus: Quality Software Design</Card.Header>
+                    <Card.Body>
+                        <Card.Img class="bookImg" src={require("../resources/designPatterns.jpg")} />
+                        <Card.Subtitle>By Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides</Card.Subtitle>
+                        <Card.Text>The classic "Gang of Four" book on Design Patterns. An oldie but a goodie.</Card.Text>
+                        <Button href="https://www.oreilly.com/library/view/design-patterns-elements/0201633612/"
+                            target="_blank">Check it Out on O'Reilly</Button>
                     </Card.Body>
                 </Card>
             </CardDeck>
