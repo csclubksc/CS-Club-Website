@@ -7,7 +7,7 @@ class Resources extends React.Component {
     render() {
         return (
             <CardDeck id="resourceDeck" ref={this.props.scrollRef}>
-                <Card>
+                <Card id="titleCard">
                     <Card.Body>
                         <Card.Title><h1>Bookshelf</h1></Card.Title>
                         <Card.Text>

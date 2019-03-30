@@ -30,7 +30,7 @@ class Projects extends React.Component{
     render(){
         return (
             <CardDeck ref={this.props.scrollRef} id="githubProjects">
-                <Card>
+                <Card id="titleCard">
                     <Card.Body>
                         <Card.Title><h1>Github Projects</h1></Card.Title>
                         <Card.Text>

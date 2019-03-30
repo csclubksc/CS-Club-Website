@@ -11,16 +11,25 @@ body {
   margin-bottom: 5em;
 }
 
+.btn-toolbar{
+  align-content: center;
+}
+
 #meetingCards {
   margin-left: 5%;
+  margin-bottom: 5em;
 }
 
 #contactUs{
   margin-top: 5em;
 }
 
-.card #meetingItem {
-  background-color: #FF6961;
+.card #meetingItem .card-body {
+  text-align: left;
+}
+
+.card #meetingItem .card-title {
+  font-size: 2em;
 }
 
 #logo {
@@ -43,10 +52,6 @@ body {
   position: fixed;
   background-color: white;
   padding-top: 1em;
-}
-
-#sectionHeader{
-  margin-right: 2em;
 }
 
 article{
@@ -109,6 +114,14 @@ article{
   width: 20em;
   margin-bottom: 10em;
   outline: solid;
+}
+
+#titleCard {
+  background-color: #FF6961;
+}
+
+#titleCard .card-body {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
