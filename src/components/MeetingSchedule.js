@@ -15,7 +15,8 @@ class MeetingSchedule extends Component {
             "Check Out Leetcode": "https://www.leetcode.com"
         })
         this.links.push({
-            "Robocode Website": "https://robocode.sourceforge.io/"
+            "Robocode Website": "https://robocode.sourceforge.io/",
+            "Robocode Wiki": "http://robowiki.net/"
         })
     }
 
