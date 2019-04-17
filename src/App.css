@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./resources/circuitsGreen.png");
+  background-attachment: fixed;
+}
+
+#meetingSched {
+  margin-bottom: 5em;
+}
+
+.btn-toolbar{
+  align-content: center;
+}
+
+#meetingCards {
+  margin-left: 5%;
+  margin-bottom: 5em;
+}
+
+#contactUs{
+  margin-top: 5em;
+}
+
+#meetingItem .card-body {
+  text-align: left;
+}
+
+#meetingItem .card-title {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+#meetingItem .card-subtitle {
+  margin-bottom: 1em;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 30em;
+  margin-bottom: 1em;
+}
+
+#banner {
+  margin-top: -.9em;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+#header {
+  z-index: 2;
+  height: 12.2em;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  padding-top: 1em;
+}
+
+article{
+  font-size: 1.3em;
+}
+
+.bookImg {
+  margin-bottom: 1em;
+  width: 50%;
+  min-width: 90px;
+  height: auto;
+}
+
+.card-body{
+  text-align: center;
+}
+
+#resourceDeck {
+  margin-left: 5%;
+  margin-top: 5em;
+}
+
+#bodyWrapper {
+  padding-top: 5em;
+  position: absolute;
+  top: 8em;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+} 
+
+.nav {
+  text-align: center;
+  margin-left: 2.5em;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.card-deck {
+  width: 90%;
+}
+
+.card {
+  background-color: #80A1B6;
+  color: white;
+}
+
+#githubProjects {
+  margin-left: 5%;
+}
+
+.githubProject {
+  text-align: center;
+  float: left;
+  margin-top: 2em;
+  margin-right: 5em;
+  width: 20em;
+  margin-bottom: 10em;
+  outline: solid;
+}
+
+#titleCard {
+  background-color: #FF6961;
+}
+
+#titleCard .card-body {
+  text-align: left;
+}
+
+#contactUs {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: -1.5em;
+  text-align: center;
+}
+
+.divider {
+  display: inline-block;
+  width: 10%;
+}
+
+#text {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .nav {
+    font-size: .7em;
+  }
+}
+
+@media only screen and (max-width: 740px){
+  .nav {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #logo{
+    width: 18em;
+  }
+  #header{
+    height: 7em;
+  }
+
+  #contactUs {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: -1.5em;
+    text-align: center;
+  }
+
+  #banner {
+    margin-top: -6em;
+  }
+}
