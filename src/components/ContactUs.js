@@ -4,14 +4,14 @@ import { SocialIcon } from 'react-social-icons';
 class ContactUs extends Component {
     render() {
         return (
-            <div id="contactUs" ref={this.props.scrollRef}>
-                <SocialIcon target="_blank" url="https://twitter.com"/>
+            <div id="contactUs" ref={this.props.scrollRef} style={{ margin: '40px', backgroundColor: 'black' }}>
+                <SocialIcon target="_blank" url="https://twitter.com" />
                 <span class="divider"></span>
-                <SocialIcon target="_blank" url="https://github.com/csclubksc"/>
+                <SocialIcon target="_blank" url="https://github.com/csclubksc" />
                 <span class="divider"></span>
-                <SocialIcon target="_blank" url="https://facebook.com/KSCComputerScienceClub"/>
+                <SocialIcon target="_blank" url="https://facebook.com/KSCComputerScienceClub" />
                 <span class="divider"></span>
-                <SocialIcon target="_blank" url="https://instagram.com"/>
+                <SocialIcon target="_blank" url="https://instagram.com" />
             </div>
         );
     }

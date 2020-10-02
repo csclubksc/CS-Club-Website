@@ -3,34 +3,34 @@ import Nav from 'react-bootstrap/Nav';
 
 const links = [
     "Recommended Books",
-    "Meetings", 
-    "Gallery", 
-    "Projects", 
+    "Meetings",
+    "Gallery",
+    "Projects",
     "Contact Us",
 ];
 
 const linkTags = [];
 
-for(var i = 0; i < links.length; i++){
+for (var i = 0; i < links.length; i++) {
     linkTags.push(<li><a href="/">{links[i]}</a></li>);
 };
 
-class Header extends React.Component{
+class Header extends React.Component {
     goToTop = (e) => {
         e.preventDefault();
         window.scrollTo(0, 0);
     }
 
-    render(){
+    render() {
         return (
             <div id="header">
                 <a onClick={this.goToTop} href="/"><img id="logo" alt="logo" src={require("../resources/TempHeader.PNG")} /></a>
                 <Nav fill justify variant="tabs"
                     activeKey="#"
                     onSelect={selectedKey => {
-                            window.scrollTo(0, this.props.scrollRefs[selectedKey].current.offsetTop - 80);
-                            console.log(selectedKey);
-                        }
+                        window.scrollTo(0, this.props.scrollRefs[selectedKey].current.offsetTop - 80);
+                        console.log(selectedKey);
+                    }
                     }>
                     <Nav.Item>
                         <Nav.Link eventKey="gallery">Gallery</Nav.Link>
